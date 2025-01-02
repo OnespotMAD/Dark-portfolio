@@ -1,15 +1,15 @@
 {
-    "name": "Minh Pham - Multidisciplinary Designer",
-    "short_name": "Minh Pham",
+    "name": "Onespot MAD - Web Designer",
+    "short_name": "Onespot MAD",
     "icons": [
         {
-            "src": "android-chrome-192x192.png",
+            "src": "20241231_142846.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "android-chrome-512x512.png",
-            "sizes": "512x512",
+            "src": "20241231_142846.png",
+            "sizes": "192x192",
             "type": "image/png"
         }
     ],
