@@ -793,6 +793,9 @@
                         if ((drag_start.x - newPosition.x) < - options.swipeDistance) {
                             if (currentIndex >= 0 && currentIndex < options.slideImages.length - 1) {
                                 slideTransition(currentIndex + 1);
+                                add();
+                                document.getElementById("secBtn").href=links[lNo];
+                        
                             } else {
                                 slideTransition(0);
                             }
@@ -802,6 +805,9 @@
                         if ((drag_start.x - newPosition.x) > options.swipeDistance) {
                             if (currentIndex > 0 && currentIndex < options.slideImages.length) {
                                 slideTransition(currentIndex - 1);
+                                sub();
+			document.getElementById("secBtn").href=links[lNo];
+			
                             } else {
                                 slideTransition(options.slideImages.length - 1);
                             }
