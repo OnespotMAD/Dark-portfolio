@@ -554,15 +554,7 @@ canva.height= window.innerHeight +"px";
                             </div>
                         </div>
                     </div>
-                    <div class="loaderE">   	
-   <div class="ringOne ring">
-       <img class="imgE" src="ring.png" alt="">
-    </div>
-   <div class="ringTwo ring">
-       <img class="imgE" src="ring.png" alt="">
-    </div>
-</div>
-
+                    
 
 </div>
                 <div id="contact">
@@ -590,15 +582,17 @@ t1.from(".ringOne", 4, {
 }, "-=5")
 .to(".ringOne", 4, {
       delay: 0.4,
-      y: 40,
-      scale: 0.5, // Add size reduction to this animation
+      
+      scale: 0.7, // Add size reduction to this animation
       ease: Expo.easeInOut
 }).to(".ringTwo", 4, {
       delay: 0.9,
-      y: 40,
-      scale: 0.5, // Add size reduction to this animation
+      
+      scale: 0.7, // Add size reduction to this animation
       ease: Expo.easeInOut
 }, "-=5");
+
+    
 
       }
       
@@ -646,6 +640,15 @@ t1.from(".ringOne", 4, {
                             <!-- explore-->
                             
          <div id="Explore">
+		 <div class="loaderE">   	
+   <div class="ringOne ring">
+       <img class="imgE" src="ring.png" alt="">
+    </div>
+   <div class="ringTwo ring">
+       <img class="imgE" src="ring.png" alt="">
+    </div>
+		 </div>
+		 
          	<p class="Etittle My"> My </p>
               <button class="eBtn" id="eBtn" onclick="play()">PROJECTS › </button> 
        </div>
