@@ -4384,7 +4384,7 @@ canvas.three-app {
 
 .layer__red {
     --size: 0px;
-    background: #eb5939;
+    background: #eaebed;
     left: 0;
     -webkit-mask-image: url(assets/icons/test-mask.svg);
     mask-image: url(assets/icons/test-mask.svg);
