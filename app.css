@@ -4983,7 +4983,7 @@ canvas.three-app {
 }
 
 .wrapper {
-      width: auto;
+      width: 100%;
       height: 100%;
       position: absolute;
       top: 50%;
