@@ -34,7 +34,7 @@
 }
 
 .fill-red {
-    fill: #eaebed
+    fill: #eb5939
 }
 
 .stroke-red {
@@ -4384,7 +4384,7 @@ canvas.three-app {
 
 .layer__red {
     --size: 0px;
-    background: #eaebed;
+    background: #eb5939;
     left: 0;
     -webkit-mask-image: url(assets/icons/test-mask.svg);
     mask-image: url(assets/icons/test-mask.svg);
