@@ -10003,8 +10003,8 @@ mask-image:radial-gradient(circle,#000,rgba(0,0,0,0)60%);
 	}
 	
 	.eBtn{
-		position: absolute;
-	z-index: 1;
+		position: relative;
+	z-index: 6;
 	font-size: .875rem;
     line-height: 100%;
     letter-spacing: .5em;
